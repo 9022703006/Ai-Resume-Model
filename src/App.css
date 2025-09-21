@@ -1,0 +1,15 @@
+/* Apply global font size to chat */
+#n8n-chat {
+  font-size: 20px; /* default is ~14px */
+}
+
+/* Message bubbles */
+#n8n-chat .n8n-chat__message {
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+/* Input field */
+#n8n-chat .n8n-chat__input textarea {
+  font-size: 18px;
+}
