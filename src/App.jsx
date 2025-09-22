@@ -11,7 +11,7 @@ function App() {
       );
 
       createChat({
-        webhookUrl: "https://<your-service>.onrender.com/webhook/13fb6dc5-262f-4303-a2ce-33f8a8a37c4a/chat"
+       webhookUrl: "https://resumechartai-n8n.onrender.com/webhook/13fb6dc5-262f-4303-a2ce-33f8a8a37c4a/chat",
         mode: "fullscreen", 
         target: "#n8n-chat",
         initialMessages: [
