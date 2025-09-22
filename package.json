@@ -7,10 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "npx n8n start"
   },
   "dependencies": {
     "@n8n/chat": "^0.50.0",
+    "n8n": "^1.0.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
