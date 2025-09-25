@@ -11,8 +11,7 @@ function App() {
       );
 
       createChat({
-        webhookUrl:
-          "http://localhost:5678/webhook/e3ec82ae-3e8e-4e46-a945-97cb762218c7/chat",
+        webhookUrl:"https://resumechartai.onrender.com/webhook/e3ec82ae-3e8e-4e46-a945-97cb762218c7/chat",
         mode: "fullscreen", 
         target: "#n8n-chat",
         initialMessages: [
@@ -26,6 +25,7 @@ function App() {
 
 👉 What would you like to know about me first?`,
         ],
+        footer: false,
       });
     };
 
