@@ -11,7 +11,7 @@ function App() {
 
       createChat({
         webhookUrl:
-          "https://ai-resume-model-prathmesh-backend.onrender.com/webhook/e3ec82ae-3e8e-4e46-a945-97cb762218c7/chat",
+          "https://ai-resume-model-prathmesh-backend.onrender.com/webhook/ai-resume-chat",
         mode: "fullscreen",
         target: "#n8n-chat",
         initialMessages: [
