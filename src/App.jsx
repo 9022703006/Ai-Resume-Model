@@ -25,7 +25,8 @@ function App() {
 
 👉 What would you like to know about me first?`,
         ],
-        footer: false,
+        footer: "🚀 Built by Prathmesh Sanjay Patil"
+        ,
       });
     };
 
