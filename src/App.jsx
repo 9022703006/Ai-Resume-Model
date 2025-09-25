@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import "@n8n/chat/style.css";
 import "./App.css"; 
 
-
 function App() {
   useEffect(() => {
     const loadChat = async () => {
@@ -12,8 +11,8 @@ function App() {
 
       createChat({
         webhookUrl:
-          "http://localhost:5678/webhook/e3ec82ae-3e8e-4e46-a945-97cb762218c7/chat",
-        mode: "fullscreen", 
+          "https://ai-resume-model-prathmesh-backend.onrender.com/webhook/e3ec82ae-3e8e-4e46-a945-97cb762218c7/chat",
+        mode: "fullscreen",
         target: "#n8n-chat",
         initialMessages: [
           `👋 Hi, I'm **Prathmesh Sanjay Patil!** This is my AI Resume Assistant.  
@@ -36,8 +35,8 @@ function App() {
     <div
       id="n8n-chat"
       style={{
-        height: "100vh",  
-        width: "100vw",   
+        height: "100vh",
+        width: "100vw",
         display: "flex",
         flexDirection: "column",
         overflow: "hidden",
